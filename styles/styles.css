@@ -1,0 +1,402 @@
+body {
+  width: 1400px;
+  height: 7211px;
+  font-family: Manrope;
+
+}
+
+header {
+  display: flex;
+  width: 1151.35px;
+  height: 25.18px;
+  margin-top: 32.82px;
+  margin-left: 125px;
+}
+.navigation {
+  display: flex;
+}
+
+.logo {
+  width: 125px;
+  height: 22px;
+  margin-top: 0;
+  margin-right: 0;
+  }
+
+.nav {
+  margin-left: 550px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+
+.nav-link {
+  margin-left: 57px;
+}
+
+.nav-link:first-child {
+  width: 52px;
+  margin-left: 10px;
+  }
+
+
+.nav-link:hover {
+opacity: 0.5;
+border-bottom: 1.5px solid #5a5a5a;
+}
+
+
+.interior {
+position: relative;
+margin-top: 30px;
+height: 500px;
+width: 1150px;
+background-image: url("../resources/foto main.png");
+box-sizing: border-box;
+margin-left: 125px;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: -0.03em;
+text-align: left;
+
+
+}
+
+
+.image-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+color: white;
+font-size: 20px;
+font-weight: 400;
+line-height: 27.32px;
+letter-spacing: -0.03em;
+width: 430px;
+height: 81px;
+
+}
+
+h1 h2 h3 {
+font-family: Manrope;
+letter-spacing: -0.03em;
+}
+
+h1 {
+
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+margin-left: 125px;
+margin-top: 70px;
+letter-spacing: -0.03em;
+}
+
+h2 {
+font-size: 18px;
+font-weight: 400;
+line-height: 24.59px;
+letter-spacing: -0.03em;
+margin-top: 150px;
+margin-left: 125px;
+}
+
+.description {
+width: 1048px;
+height: 366px;
+margin-top: 30px;
+margin-left: 125px;
+font-size: 45px;
+font-weight: 400;
+line-height: 61.47px;
+letter-spacing: -0.03em;
+text-align: left;
+}
+
+.btn {
+display: block;
+width: 255px;
+height: 67px;
+padding: 20px 40px 20px 40px;
+border-radius: 5px;
+border: 1px solid #AD1818;
+background-color: #AD1818;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 400;
+line-height: 67px;
+letter-spacing: -0.03em;
+margin-top: 30px;
+margin-left: 125px;
+text-align: center;
+padding: 0;
+cursor: pointer;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #AD1818;
+}
+
+.button-projects:hover{
+  background: #AD1818;
+  color:#ffffff;
+  border:4px solid #AD1818;
+  transition: all 0.2s ease;
+  color: #ffffff;
+  }
+
+.projects {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  margin-left: 125px;
+  margin-top: 30px;
+  width: 1150px;
+}
+
+.projects .project {
+  margin-top: 90px;
+}
+
+.project.project:first-child {
+  margin-top: 30px;
+}
+
+
+.project-title {
+margin-top: 9px;
+margin-bottom: 15px;
+font-size: 30px;
+font-weight: 400;
+line-height: 40.98px;
+letter-spacing: -0.9px;
+color: black;
+}
+
+.project-link {
+font-size: 20px;
+font-weight: 400;
+line-height: 27.32px;
+color: #AD1818;
+text-decoration: none;
+
+}
+.fullWidthBtn {
+  display: block;
+  width: 100%;
+  height: 153px;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  line-height: 153px;
+  border: 1px solid #AD1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #AD1818;
+}
+
+
+
+
+.fullWidthBtn:hover {
+  background-color: #AD1818;
+  color: #fff;
+}
+
+a {
+  color: rgb(0, 0, 0); /* Цвет ссылок */
+  text-decoration: none;
+ }
+
+
+ .section-black {
+  width: 1400px;
+  height: 1844px;
+  margin-top: 150px;
+  background-color: #121212;
+  color: #fff;
+ }
+
+ .section-black h2 {
+  color: #fff;
+  padding-top: 147px;
+  padding-bottom: 34px;
+  letter-spacing: -0.3px;
+ }
+
+
+ .services {
+  margin-left: 125px;
+ }
+
+  .service h3 {
+    margin-top: 15px;
+    margin-bottom: 58px;
+font-family: Manrope;
+font-size: 30px;
+font-weight: 400;
+line-height: 40.98px;
+letter-spacing: -0.029em;
+margin-left: 5px;
+  }
+
+.services:last-child {
+  margin-bottom: 150px;
+
+}
+
+  .service-section-title:last-child {
+    padding-bottom: 0px;
+ 
+  }
+
+  .service-section-main:first-child {
+    margin-bottom: 34px; 
+    }
+
+  .project-section-main {
+    position: relative;
+    background-image: url("../resources/foto_proj.png");
+    width: 1400px;
+    height: 717px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+
+  }
+
+  .foto-project {
+    margin-top: 77px;
+    margin-left: 0;
+  }
+
+  .foto-service {
+    margin-top: 0px;
+  }
+
+  .project-section {
+    position: absolute;
+    width: 443px;
+    height: 82px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    left: 125px;
+    bottom: 60px; 
+  }
+
+
+  .img-phone {
+    width: 24px;
+    height: 24px;
+    margin-top: 150px;
+    margin-left: 120px;
+
+   
+  }
+
+
+
+  .img-phone::before {
+content: '';
+background-image: url("../resources/ic_outline-phone-iphone.png");
+width: 24px;
+height: 24px;
+margin-top: 150px;
+padding: 1px 10px 1px 10px;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+padding: auto;
+
+
+}
+
+.name-cont {
+  width: 100px;
+  height: 15px;
+  margin-top: 15px;
+  margin-left: 124px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: -0.016em;
+}
+
+.contact {
+margin-top: 36px;
+margin-left: 124px;
+width: 472px;
+height: 60px;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: -0.016em;
+
+}
+
+.email {
+width: 412px;
+height: 60px;
+margin-top: 30px;
+margin-left: 125px;
+margin-bottom: 153px;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+padding-bottom: 7px;
+letter-spacing: -0.03em;
+opacity: 50%;
+border-bottom: 3px solid #464646;
+
+}
+
+
+
+.footer {
+width: 1400px;
+height: 229px;
+margin-top: 150px;
+background-color: black;
+
+ }
+
+ .footer a {
+  position: relative;
+  color: #ffffff;
+  margin-left: 55px;
+
+}
+ 
+
+
+.footer-nav {
+  position: absolute;
+  width: 460px;
+  height: 25px;
+  margin-top: 61px;
+  margin-left: 462px;
+ 
+  
+  
+}
+.developer {
+ position: absolute;
+  margin-left: 509px;
+  margin-top: 171px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  color: #9a9a9a;
+ }
+
